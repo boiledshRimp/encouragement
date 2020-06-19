@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height:100vh;
+}
+
+#container {
+	margin:0 auto;
+	width: 80vw;
+	min-width: 300px;
+	min-height: 50vh;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	text-align:center;
+	overflow: auto;
+	-webkit-box-shadow: 4px 4px 8px 6px rgba(0,0,0,0.17);
+	-moz-box-shadow: 4px 4px 8px 6px rgba(0,0,0,0.17);
+	box-shadow: 4px 4px 8px 6px rgba(0,0,0,0.17);
+}
+
+#container h1 {
+	margin: 0;
+	font-size: 1.3rem;
+	padding:2vh 0vh;
+	letter-spacing: 5px;
+}
+
+header {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	background: #27e0b7;
+	width:100%;
+	color:#333;
+	background: repeating-linear-gradient(45deg, #2affd0, #2affd0 10px, #27e0b7 0, #27e0b7 20px);
+	text-shadow: white 3px 0px, white -3px 0px, white 0px -3px, white -3px 0px, white 3px 3px, white -3px 3px, white 3px -3px, white -3px -3px, white 1px 3px, white -1px 3px, white 1px -3px, white -1px -3px, white 3px 1px, white -3px 1px, white 3px -1px, white -3px -1px, white 1px 1px, white -1px 1px, white 1px -1px, white -1px -1px;
+}
+
+#message {
+	padding:5vh 0vh;
+	color:#333;
+	font-weight:500;
+}
+
+#comment {
+	width: 80%;
+	height: 5vh;
+	font-size: 1.15rem;
+}
+
+#button {
+	background: #27e0b7;
+	margin: 0 auto;
+	text-align: center;
+	cursor: pointer;
+	width: 50vw;
+	padding: 2vh;
+	margin-top: 7vh;
+	margin-bottom: 7vh;
+	display: inline-block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color: #FFF;
+	border-bottom: solid 4px rgb(201, 201, 201);
+	border-radius: 5px;
+}
+
+#button:active {
+	-webkit-transform: translateY(4px);
+	transform: translateY(4px);
+	border-bottom: none;
+}
+
+#result {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	color: #ffeb3b;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-shadow: #806b20 3px 0px, #806b20 -3px 0px, #806b20 0px -3px, #806b20 -3px 0px, #806b20 3px 3px, #806b20 -3px 3px, #806b20 3px -3px, #806b20 -3px -3px, #806b20 1px 3px, #806b20 -1px 3px, #806b20 1px -3px, #806b20 -1px -3px, #806b20 3px 1px, #806b20 -3px 1px, #806b20 3px -1px, #806b20 -3px -1px, #806b20 1px 1px, #806b20 -1px 1px, #806b20 1px -1px, #806b20 -1px -1px;
+}
+
+#buttonClear {
+	background: #27e0b7;
+	margin: 0 auto;
+	text-align: center;
+	cursor: pointer;
+	width: 50vw;
+	padding: 2vh;
+	margin-top: 5vh;
+	margin-bottom: 7vh;
+	display: inline-block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color: #FFF;
+	border-bottom: solid 4px rgb(201, 201, 201);
+	border-radius: 5px;
+}
+
+#buttonClear:active {
+	-webkit-transform: translateY(4px);
+	transform: translateY(4px);
+	border-bottom: none;
+}
