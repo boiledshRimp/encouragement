@@ -1,4 +1,4 @@
-# tax_rate_calculation
+# encouragement
 
 自分を励ましてくれるアプリ。
 
