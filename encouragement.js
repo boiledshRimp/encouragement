@@ -52,7 +52,7 @@ document.getElementById("button").onclick = function(){
 //ボタンを押したらの動き
 document.getElementById("buttonClear").onclick = function(){
 
-	//コメントを空に
+	//コメントを空にする。
 	document.getElementById("comment").value = "";
 	//結果を空に
 	resultBox.innerHTML = "";
